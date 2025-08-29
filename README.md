@@ -1,6 +1,6 @@
 <div align="center">
-<img src="https://i.imgur.com/sfddZX4.png" alt="Logo" width="300" height="300">
+<img src="https://i.imgur.com/QKgvpH2.png" alt="Logo" width="1200" height="200">
 
-<h3 align="center">Dawn of Time project</h3>
+<h1 align="center">The Last Flicker</h1>
 
 </div>
