@@ -4,11 +4,13 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import org.gap.thelastflicker.client.model.ScreechersModel;
 import org.gap.thelastflicker.entity.ScreechersEntity;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.renderer.layer.AutoGlowingGeoLayer;
 
 public class ScreechersRenderer extends GeoEntityRenderer<ScreechersEntity> {
 
     public ScreechersRenderer(EntityRendererProvider.Context context) {
         super(context, new ScreechersModel());
+        this.addRenderLayer(new AutoGlowingGeoLayer<>(this));
     }
 
     /*

@@ -10,6 +10,7 @@ import org.gap.thelastflicker.client.TheLastFlickerClient;
 public class TheLastFlickerForgeClient {
     @SubscribeEvent
     public static void registerRenderers(final EntityRenderersEvent.RegisterRenderers event) {
-        TheLastFlickerClient.registerRenderers(event::registerEntityRenderer, event::registerBlockEntityRenderer);
+        TheLastFlickerClient.registerEntityRenderers(event::registerEntityRenderer);
+        // No need to register BlockRendered, this mod doesn't have any (event::registerBlockEntityRenderer)
     }
 }
