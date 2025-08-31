@@ -10,8 +10,6 @@ import java.util.ServiceLoader;
 // common compatible binaries. This means common code can not directly use loader specific concepts such as Forge events
 // however it will be compatible with all supported mod loaders.
 public class TheLastFlickerCommon {
-    public static final String MODID = "thelastflicker";
-
     public static final TheLastFlickerPlatform COMMON_PLATFORM = ServiceLoader.load(TheLastFlickerPlatform.class).findFirst().orElseThrow();
 
     // The loader specific projects are able to import and use any code from the common project. This allows you to

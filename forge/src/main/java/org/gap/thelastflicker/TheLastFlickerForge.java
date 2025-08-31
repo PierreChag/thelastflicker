@@ -9,9 +9,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import org.gap.thelastflicker.registry.EntityRegistry;
 
-@Mod(TheLastFlickerCommon.MODID)
+@Mod(Constants.MOD_ID)
 public class TheLastFlickerForge {
-    public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, TheLastFlickerCommon.MODID);
+    public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, Constants.MOD_ID);
 
     public TheLastFlickerForge(FMLJavaModLoadingContext context) {
 
