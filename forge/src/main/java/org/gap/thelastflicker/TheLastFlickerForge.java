@@ -14,14 +14,6 @@ public class TheLastFlickerForge {
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, Constants.MOD_ID);
 
     public TheLastFlickerForge(FMLJavaModLoadingContext context) {
-
-        // This method is invoked by the Forge mod loader when it is ready
-        // to load your mod. You can access Forge and Common code in this
-        // project.
-
-        // Use Forge to bootstrap the Common mod.
-        Constants.LOG.info("Hello Forge world!");
-
         final IEventBus modEventBus = context.getModEventBus();
 
         ENTITIES.register(modEventBus);
