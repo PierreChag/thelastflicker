@@ -1,8 +1,8 @@
-package org.gap.thelastflicker;
+package org.gap.thelastflicker.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import org.gap.thelastflicker.ScreechersEntity;
-import software.bernie.geckolib.model.GeoModel;
+import org.gap.thelastflicker.client.model.ScreechersModel;
+import org.gap.thelastflicker.entity.ScreechersEntity;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class ScreechersRenderer extends GeoEntityRenderer<ScreechersEntity> {

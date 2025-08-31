@@ -5,7 +5,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import org.gap.thelastflicker.TheLastFlickerCommon;
-import org.gap.thelastflicker.ScreechersEntity;
+import org.gap.thelastflicker.entity.ScreechersEntity;
 
 import java.util.function.BiConsumer;
 import java.util.function.Supplier;

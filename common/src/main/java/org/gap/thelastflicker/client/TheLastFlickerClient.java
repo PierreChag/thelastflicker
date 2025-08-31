@@ -6,7 +6,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import org.gap.thelastflicker.ScreechersRenderer;
+import org.gap.thelastflicker.client.renderer.ScreechersRenderer;
 import org.gap.thelastflicker.registry.EntityRegistry;
 
 import java.util.function.BiConsumer;

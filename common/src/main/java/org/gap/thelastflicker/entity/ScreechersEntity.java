@@ -1,4 +1,4 @@
-package org.gap.thelastflicker;
+package org.gap.thelastflicker.entity;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;
