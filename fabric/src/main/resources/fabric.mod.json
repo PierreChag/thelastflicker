@@ -16,7 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "org.gap.thelastflicker.TheLastFlicker"
+            "org.gap.thelastflicker.TheLastFlickerFabric"
+        ],
+        "client": [
+            "org.gap.thelastflicker.TheLastFlickerFabricClient"
         ]
     },
     "mixins": [
