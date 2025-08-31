@@ -1,6 +1,8 @@
 package org.gap.thelastflicker;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import org.gap.thelastflicker.registry.EntityRegistry;
 
 public class TheLastFlicker implements ModInitializer {
     
@@ -13,6 +15,8 @@ public class TheLastFlicker implements ModInitializer {
 
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
-        CommonClass.init();
+
+        TheLastFlickerCommon.doRegistrations();
+        EntityRegistry.registerEntityAttributes(FabricDefaultAttributeRegistry::register);
     }
 }
