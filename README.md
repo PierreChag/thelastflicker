@@ -12,8 +12,8 @@ Le plan :
 
 Choisir le gameplay :
 * soit sans fin, il faut aller le plus loin possible
-* soit avec un quête pour se libérer de la malédiction
+* soit avec une quête pour se libérer de la malédiction
 
 Chaque joueur qui spawn a une entité intouchable / intuable qui le suit et qui fait de la lumière (shaders).
 
-Quand la lampe est à 0, mourrir est définitif. Si tout le monde meurt avant de redémarrer la lamp : GAME OVER.
+Quand la lampe est à 0, mourrir devient définitif. Si tout le monde meurt avant de redémarrer la lampe : GAME OVER.
